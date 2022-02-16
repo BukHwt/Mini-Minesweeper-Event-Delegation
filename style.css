@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.black {
+  background-color: black;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bolder;
+}
